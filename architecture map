@@ -1,0 +1,12 @@
+mkdir -p architecture
+docs/
+  architecture/
+touch architecture/overview.md
+docs/architecture/overview.md
+code architecture/overview.md
+
+git add .
+git commit -m "Add architecture map to Docs"
+git remote add origin https://github.com/hiyrowspearos/Docs.git
+git remote -v
+git push -u origin 
